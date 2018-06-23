@@ -55,7 +55,7 @@
                                                 </state>
                                                 <state key="selected" image="checked"/>
                                                 <connections>
-                                                    <action selector="buttonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Rg-Nm-qWL"/>
+                                                    <action selector="genderButtonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9mc-nX-9LC"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2m2-4J-Fa0">
@@ -65,7 +65,7 @@
                                                 </state>
                                                 <state key="selected" title="Female" image="checked"/>
                                                 <connections>
-                                                    <action selector="buttonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Ny-nO-Kfu"/>
+                                                    <action selector="genderButtonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F25-i3-xaT"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YLN-pJ-kDl">
@@ -75,7 +75,7 @@
                                                 </state>
                                                 <state key="selected" title="Other" image="checked"/>
                                                 <connections>
-                                                    <action selector="buttonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mpZ-pa-fAU"/>
+                                                    <action selector="genderButtonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V3Z-rH-RJQ"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -105,7 +105,7 @@
                                 <rect key="frame" x="158" y="550" width="59" height="30"/>
                                 <state key="normal" title="Register"/>
                                 <connections>
-                                    <action selector="buttonT:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ll4-oQ-0li"/>
+                                    <action selector="registerButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dco-CX-b3a"/>
                                 </connections>
                             </button>
                         </subviews>

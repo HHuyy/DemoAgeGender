@@ -26,7 +26,7 @@ class MasterViewController: UIViewController, UIPickerViewDataSource, UIPickerVi
         super.didReceiveMemoryWarning()
     }
     
-    @IBAction func buttonTap(_ sender: UIButton) {
+    @IBAction func genderButtonTap(_ sender: UIButton) {
         buttons.forEach { button in
             button.isSelected = false
         }
@@ -37,7 +37,7 @@ class MasterViewController: UIViewController, UIPickerViewDataSource, UIPickerVi
         print(sender.currentTitle!)
     }
 
-    @IBAction func buttonT(_ sender: UIButton) {
+    @IBAction func registerButton(_ sender: UIButton) {
         if nameTextField.text != "" {
         UserDefaults.standard.set(nameTextField.text, forKey: "name")
         }
