@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		DB50B24020DB4D4400FD21AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB50B23F20DB4D4400FD21AD /* AppDelegate.swift */; };
-		DB50B24220DB4D4400FD21AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB50B24120DB4D4400FD21AD /* ViewController.swift */; };
+		DB50B24220DB4D4400FD21AD /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB50B24120DB4D4400FD21AD /* MasterViewController.swift */; };
 		DB50B24520DB4D4400FD21AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB50B24320DB4D4400FD21AD /* Main.storyboard */; };
 		DB50B24720DB4D4400FD21AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB50B24620DB4D4400FD21AD /* Assets.xcassets */; };
 		DB50B24A20DB4D4400FD21AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB50B24820DB4D4400FD21AD /* LaunchScreen.storyboard */; };
 		DB50B25520DB4D4400FD21AD /* DemoAgeGenderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB50B25420DB4D4400FD21AD /* DemoAgeGenderTests.swift */; };
 		DB50B26020DB4D4400FD21AD /* DemoAgeGenderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB50B25F20DB4D4400FD21AD /* DemoAgeGenderUITests.swift */; };
+		DB50B26E20DB560300FD21AD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB50B26D20DB560300FD21AD /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		DB50B23C20DB4D4400FD21AD /* DemoAgeGender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoAgeGender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB50B23F20DB4D4400FD21AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DB50B24120DB4D4400FD21AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB50B24120DB4D4400FD21AD /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		DB50B24420DB4D4400FD21AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB50B24620DB4D4400FD21AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB50B24920DB4D4400FD21AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		DB50B25B20DB4D4400FD21AD /* DemoAgeGenderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoAgeGenderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB50B25F20DB4D4400FD21AD /* DemoAgeGenderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAgeGenderUITests.swift; sourceTree = "<group>"; };
 		DB50B26120DB4D4400FD21AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB50B26D20DB560300FD21AD /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				DB50B23F20DB4D4400FD21AD /* AppDelegate.swift */,
-				DB50B24120DB4D4400FD21AD /* ViewController.swift */,
+				DB50B24120DB4D4400FD21AD /* MasterViewController.swift */,
+				DB50B26D20DB560300FD21AD /* DetailViewController.swift */,
 				DB50B24320DB4D4400FD21AD /* Main.storyboard */,
 				DB50B24620DB4D4400FD21AD /* Assets.xcassets */,
 				DB50B24820DB4D4400FD21AD /* LaunchScreen.storyboard */,
@@ -259,7 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB50B24220DB4D4400FD21AD /* ViewController.swift in Sources */,
+				DB50B26E20DB560300FD21AD /* DetailViewController.swift in Sources */,
+				DB50B24220DB4D4400FD21AD /* MasterViewController.swift in Sources */,
 				DB50B24020DB4D4400FD21AD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
